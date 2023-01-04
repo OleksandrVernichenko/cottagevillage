@@ -1,0 +1,31 @@
+.sold {
+  position: absolute;
+  left: 915px;
+  width: 240px;
+  height: 210px;
+  background: rgba(6, 180, 54, 0.5);
+  backdrop-filter: blur(2px);
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &-view {
+    position: absolute;
+    bottom: -110px;
+    right: -95px;
+  }
+  &-info {
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 58px;
+    display: flex;
+    flex-direction: column;
+    color: #e9c878;
+    &-span {
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 28px;
+      color: rgba(255, 255, 255, 0.8);
+    }
+  }
+}

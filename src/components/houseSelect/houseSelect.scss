@@ -1,0 +1,236 @@
+.houseSelect-description {
+  padding: 120px 185px 80px 185px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  h2 {
+    font-weight: 400;
+    font-size: 68px;
+    line-height: 100px;
+    font-family: "Neumann Regular";
+    color: #28292e;
+  }
+  .houseSelect-description-info{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+    .green, .red, .blue{
+      position: relative;
+    }
+    .green::before{
+      content: '';
+      position: absolute;
+      height: 10px;
+      width: 10px;
+      background-color: #06B436;
+      rotate: 45deg;
+      left: -20px;
+      top: 3px;
+    }
+    .red::before{
+      content: '';
+      position: absolute;
+      height: 10px;
+      width: 10px;
+      background-color: #B40606;
+      rotate: 45deg;
+      left: -20px;
+      top: 3px;
+    }
+    .blue::before{
+      content: '';
+      position: absolute;
+      height: 10px;
+      width: 10px;
+      background-color: #007AFF;;
+      rotate: 45deg;
+      left: -20px;
+      top: 3px;
+    }
+  }
+}
+
+.houseSelect-wrapper {
+  a {
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+  padding: 0 185px 120px 185px;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+  .houseSelect-gridItem-1 {
+    position: relative;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .houseSelect-gridItem-2 {
+    position: relative;
+
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .houseSelect-gridItem-3 {
+    position: relative;
+
+    grid-column: 1/2;
+    width: 100%;
+    grid-row: 2/3;
+  }
+  .houseSelect-gridItem-4 {
+    position: relative;
+
+    grid-column: 2/3;
+    width: 100%;
+    grid-row: 2/3;
+  }
+
+  .houseSelect-gridItem-list {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 30px;
+    gap: 5px;
+    z-index: 1;
+    .grid-banner-list {
+      display: flex;
+      width: max-content;
+      .grid-banner {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        span {
+          position: absolute;
+          font-weight: 700;
+          font-size: 16px;
+          color: white;
+        }
+      }
+    }
+
+    .houseSelect-gridItem-list-square {
+      margin: 30px 0 20px 30px;
+      width: 100%;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 31px;
+      color: #ffffff;
+      text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.15);
+    }
+  }
+}
+
+.houseSelect {
+  position: relative;
+  .button {
+    position: absolute;
+    z-index: 1;
+    border: none;
+    background-color: transparent;
+  }
+  .control-button-prev {
+    top: 0;
+    left: 0;
+    height: 100%;
+    rotate: 180deg;
+    width: 35px;
+    background-image: url(../images//pageImages/arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+  }
+  .control-button-next {
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 35px;
+    background-image: url(../images//pageImages/arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+  }
+  .houseSelect-slideshow {
+    overflow: hidden;
+    width: 100%;
+
+    .houseSelect-slider {
+      white-space: nowrap;
+      transition: ease-out 1000ms;
+      font-size: 0;
+    }
+    .slide {
+      display: inline-block;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 520px;
+      width: 100%;
+    }
+  }
+}
+
+
+
+
+@media (min-width: 860px) and (max-width: 1199px){
+  .houseSelect-description {
+    padding: 20px;
+
+  }
+
+  .houseSelect-wrapper {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 560px) and (max-width: 860px){
+  .houseSelect-description {
+    h2{
+      font-size: 40px;
+    }
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    .houseSelect-description-info{
+      width: 80%;
+      font-size: 16px;
+    }
+  }
+  .houseSelect-wrapper {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+@media (min-width: 360px) and (max-width: 560px){
+  .houseSelect-description {
+    h2{
+      font-size: 36px;
+    }
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    .houseSelect-description-info{
+      width: 90%;
+      font-size: 14px;
+    }
+  }
+  .houseSelect-wrapper {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+}

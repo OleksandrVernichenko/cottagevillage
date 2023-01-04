@@ -1,0 +1,181 @@
+.side {
+  font-family: "Museo Sans Cyrl";
+  width: 94%;
+  background-color: white;
+  padding: 10px 10px 10px 0;
+  border-radius: 0 20px 20px 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translateY(-50%);
+
+  &-banner-inner {
+    background-image: url(../images/pageImages/call-back.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.2);
+    width: 100%;
+    height: 100%;
+    border-radius: 0 15px 15px 0;
+    border: 1px solid #f0f0f0;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 50px 50px 50px 0;
+    box-sizing: border-box;
+
+    &-left {
+      width: 38%;
+      &-bold {
+        font-weight: 700;
+        font-size: 26px;
+        margin-bottom: 20px;
+        width: 80%;
+      }
+      &-light {
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 30px;
+        color: rgba(40, 41, 46, 0.8);
+      }
+    }
+    &-right {
+      width: 30%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        input {
+          width: 370px;
+          height: 80px;
+          border-radius: 60px;
+          border: none;
+          background: #f5f5f5;
+          box-shadow: inset 0px 2px 0px #ebebeb;
+          line-height: 19px;
+          text-align: center;
+          letter-spacing: 0.1em;
+        }
+        button {
+          width: 370px;
+          height: 80px;
+          border-radius: 60px;
+          display: flex;
+          align-items: center;
+          gap: 25px;
+          justify-content: center;
+          border: none;
+          cursor: pointer;
+          background: linear-gradient(92.7deg, #e9c878 0%, #c1a050 100%);
+          border: 1px solid rgba(255, 255, 255, 0.1);
+          text-transform: uppercase;
+        }
+        div {
+          padding-top: 5px;
+          text-align: center;
+          font-size: 14px;
+          line-height: 20px;
+          font-weight: 300;
+          span {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 875px) and (max-width: 1199px) {
+  .side {
+    position: static;
+    transform: translateY(0) !important;
+    width: 100%;
+    &-banner-inner {
+      background-image: none;
+      justify-content: space-evenly;
+
+      &-left {
+        width: 40%;
+        font-size: 22px;
+      }
+      &-right {
+        width: 50%;
+      }
+    }
+  }
+}
+
+@media (min-width: 600px) and (max-width: 874px) {
+  .side {
+    position: static;
+    transform: translateY(0) !important;
+    width: 100%;
+    &-banner-inner {
+      background-image: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 30px 0;
+
+      &-left {
+        width: 70%;
+        font-size: 22px;
+        text-align: center;
+        &-bold {
+          width: 100%;
+        }
+      }
+      &-right {
+        width: 100%;
+        // align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+@media (min-width: 360px) and (max-width: 599px) {
+  .side {
+    position: static;
+    transform: translateY(0) !important;
+    width: 100%;
+    padding: 10px;
+    &-banner-inner {
+      background-image: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 30px 0;
+      border: none;
+
+      &-left {
+        width: 90%;
+        font-size: 16px;
+        text-align: center;
+        &-bold {
+          width: 100%;
+        }
+      }
+      &-right {
+        width: 100%;
+        justify-content: center;
+        form {
+          input {
+            width: 330px;
+            height: 80px;
+          }
+          button {
+            width: 330px;
+            height: 80px;
+          }
+        }
+      }
+    }
+  }
+}

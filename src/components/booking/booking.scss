@@ -1,0 +1,139 @@
+.booking {
+  background-image: url(../images/pageImages/contact-bg.jpg);
+  background-size: cover;
+  font-family: "Neumann Regular";
+  text-align: center;
+  padding: 0;
+  position: relative;
+  //   z-index: -1;
+  &-wrapper {
+    padding: 100px 270px;
+    position: relative;
+    z-index: 3;
+    h3 {
+      background: linear-gradient(90.55deg, #ffffff 0.22%, #e9c878 99.81%);
+      font-weight: 400;
+      font-size: 68px;
+      line-height: 100px;
+      text-align: center;
+      text-transform: uppercase;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    span {
+      font-weight: 400;
+      font-size: 45px;
+      line-height: 66px;
+      text-align: center;
+      color: #ffffff;
+    }
+    form {
+      display: flex;
+      margin: 0 auto;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      gap: 15px;
+      padding: 50px 0;
+      input {
+        width: 370px;
+        height: 80px;
+        border-radius: 90px;
+        border: none;
+        text-align: center;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        color: #a0a0a0;
+      }
+      button {
+        border-radius: 90px;
+        background: radial-gradient(
+            31.58% 218.14% at 50% 50%,
+            rgba(255, 255, 255, 0.2) 0%,
+            rgba(255, 255, 255, 0) 100%
+          ),
+          linear-gradient(92.7deg, #e9c878 0%, #c1a050 100%);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        width: 370px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+
+        color: #6e5a45;
+
+        text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.25);
+      }
+      span {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        /* or 143% */
+
+        text-align: center;
+
+        color: rgba(255, 255, 255, 0.7);
+        .underline {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+.filter {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: block;
+  background: rgba(55, 102, 204, 0.85);
+  z-index: 1;
+}
+
+@media (min-width: 640px) and (max-width: 1199px) {
+  .booking {
+    &-wrapper {
+      padding: 20px;
+    }
+  }
+}
+
+@media (min-width: 360px) and (max-width: 640px) {
+  .booking {
+    &-wrapper {
+      padding: 20px;
+      h3 {
+        font-size: 35px;
+        line-height: 52px;
+      }
+      span {
+        font-size: 25px;
+        line-height: 37px;
+        font-weight: 300;
+      }
+      form {
+        input {
+          width: 330px;
+          height: 70px;
+        }
+        button {
+          width: 330px;
+          height: 70px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,292 @@
+.header-wrapper {
+  background-image: url(../images/pageImages/main-bg.jpg);
+  width: 100%;
+  padding-top: 20px;
+  color: white;
+
+  .header {
+    width: 1170px;
+    margin: 0 auto;
+    &-contacts {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      &-name {
+        font-family: "Neumann Regular";
+        font-size: 28px;
+        line-height: 40px;
+        text-transform: uppercase;
+      }
+      // name
+      &-social {
+        display: flex;
+        gap: 10px;
+      }
+      // social
+      &-call-back {
+        font-weight: 100;
+        font-family: "Museo Sans Cyrl";
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 5px;
+        &-questions {
+          span {
+            font-weight: 500;
+            color: rgb(255, 187, 0);
+          }
+          //span
+        }
+        // questions
+
+        &-number {
+          font-size: 26px;
+          font-weight: 500;
+        }
+        &-time {
+          position: relative;
+        }
+        &-time::before {
+          content: "";
+          position: absolute;
+          display: block;
+          height: 5px;
+          width: 5px;
+          border-radius: 50%;
+          background-color: #14be5c;
+          left: -10px;
+          top: 5px;
+        }
+      }
+    }
+    // contacts
+    &-sign {
+      padding-top: 100px;
+      h1 {
+        font-size: 68px;
+        font-family: "Neumann Regular";
+        margin-bottom: 20px;
+      }
+      &-gradient {
+        background: linear-gradient(90deg, #ffffff 0%, #e9c778 100%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-transform: uppercase;
+      }
+      h2 {
+        font-size: 48px;
+        font-family: "Neumann Regular";
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        span {
+          display: block;
+          background-image: url(../images/pageImages/price-bg.png);
+          padding: 25px;
+          background-position: center;
+          background-size: 200px;
+          background-repeat: no-repeat;
+          font-weight: 500;
+          // padding: 5px;
+          font-family: "Museo Sans Cyrl";
+          font-size: 18px;
+        }
+      }
+    }
+    &-service {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 100px;
+
+      &-select {
+        font-size: 14px;
+        font-family: "Museo Sans Cyrl";
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        padding: 18px 50px;
+        border-radius: 35px;
+        border: none;
+        background: linear-gradient(
+          92.7deg,
+          #f6dfa9 0%,
+          rgb(243, 184, 45) 100%
+        );
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        transition: all 0.4s ease-in;
+        color: #6e5a45;
+        text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.25);
+        cursor: pointer;
+        box-shadow: 0 0 20px 10px rgba(243, 184, 45, 0.345);
+      }
+      &-look {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: rgba(55, 102, 204, 0.5);
+        padding: 40px 40px 120px 40px;
+        font-weight: 300;
+        p {
+          display: block;
+          width: 170px;
+          color: rgba(255, 255, 255, 0.8);
+          line-height: 20px;
+          margin-bottom: 20px;
+        }
+        button {
+          color: gold;
+          background-color: transparent;
+          border: none;
+          text-decoration: underline;
+          cursor: pointer;
+          font-weight: 600;
+        }
+        &-svg {
+          position: absolute;
+          left: -35%;
+          top: -35%;
+        }
+      }
+    }
+  }
+  padding-bottom: 80px;
+  // header
+}
+
+@media (max-width: 1200px) {
+  .header-wrapper {
+    margin: 0 auto;
+
+    .header {
+      // width: 1000px;
+      width: 90%;
+      margin: 0 auto;
+      &-contacts {
+        &-name {
+          font-size: 24px;
+          line-height: 30px;
+        }
+        &-call-back {
+          &-number {
+            font-size: 20px;
+          }
+        }
+      }
+
+      &-sign {
+        padding-top: 80px;
+
+        h1 {
+          font-size: 55px;
+          margin-bottom: 10px;
+        }
+        h2 {
+          font-size: 38px;
+          gap: 15px;
+        }
+      }
+
+      &-service {
+        &-select {
+          padding: 16px 46px;
+          gap: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 775px) and (max-width: 1199px) {
+  .header-wrapper {
+    padding-bottom: 0;
+    .header {
+      &-contacts {
+        &-name {
+          font-size: 20px;
+        }
+        &-call-back {
+          font-size: 14px;
+        }
+        &-number {
+          font-size: 20px;
+        }
+      }
+      &-sign {
+        padding-top: 50px;
+        h1 {
+          font-size: 40px;
+        }
+        h2 {
+          padding-top: 10px;
+          font-size: 30px;
+          flex-direction: column;
+          align-items: flex-start;
+        }
+      }
+
+      &-service {
+        justify-content: center;
+        gap: 150px;
+        padding-bottom: 0;
+
+
+        &-select {
+          gap: 15px;
+          font-size: 12px;
+          padding: 16px 40px;
+
+          &-look{
+            align-self: flex-end;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 360px) and (max-width: 774px) {
+  .header-wrapper {
+    padding-bottom: 0;
+    .header {
+      &-contacts {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        &-call-back {
+          align-items: flex-start;
+        }
+      }
+      &-sign {
+        h2 {
+          padding-top: 10px;
+          font-size: 30px;
+          flex-direction: column;
+          align-items: flex-start;
+        }
+      }
+      &-service {
+        flex-direction: column;
+        gap: 80px;
+        padding-bottom: 0;
+        &-select{
+          align-self: flex-start;
+
+        }
+        &-look{
+          align-self: flex-end;
+          padding-bottom: 40px;
+          &-svg {
+            position: absolute;
+            left: -40%;
+            top: -40%;
+          }
+        }
+      }
+    }
+  }
+}

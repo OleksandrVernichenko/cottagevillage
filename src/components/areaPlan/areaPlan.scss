@@ -1,0 +1,182 @@
+
+.map {
+  // width: 1440px;
+  height: 700px;
+  width: 100%;
+  position: relative;
+  overflow: auto;
+  &-image {
+    width: 1440px;
+    height: 700px;
+    
+    display: block;
+  }
+  &-banner {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-name {
+      display: block;
+      height: 100%;
+      width: 100%;
+      text-align: center;
+      padding-top: 5px;
+      color: white;
+      position: absolute;
+      font-weight: 700;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  }
+  .banner-1 {
+    bottom: 140px;
+    left: 90px;
+  }
+  .banner-2 {
+    bottom: 140px;
+    left: 250px;
+  }
+  .banner-3 {
+    bottom: 140px;
+    left: 390px;
+  }
+  .banner-4 {
+    bottom: 140px;
+    left: 520px;
+  }
+  .banner-5 {
+    bottom: 140px;
+    left: 650px;
+  }
+  .banner-6 {
+    bottom: 140px;
+    left: 770px;
+  }
+  .banner-7 {
+    bottom: 140px;
+    left: 910px;
+  }
+  .banner-8 {
+    bottom: 140px;
+    left: 1040px;
+  }
+  .banner-9 {
+    bottom: 140px;
+    left: 1160px;
+  }
+  .banner-10 {
+    bottom: 140px;
+    left: 1300px;
+  }
+
+  .banner-11 {
+    bottom: 300px;
+    left: 1195px;
+  }
+  .banner-12 {
+    bottom: 300px;
+    left: 1075px;
+  }
+  .banner-13 {
+    bottom: 300px;
+    left: 915px;
+  }
+  .banner-14 {
+    bottom: 380px;
+    left: 1055px;
+  }
+  .banner-15 {
+    bottom: 410px;
+    left: 905px;
+  }
+
+  .banner-16 {
+    top: 190px;
+    left: 715px;
+  }
+  .banner-17 {
+    top: 230px;
+    left: 715px;
+  }
+  .banner-18 {
+    top: 300px;
+    left: 715px;
+  }
+  .banner-19 {
+    top: 390px;
+    left: 715px;
+  }
+  .banner-20 {
+    top: 150px;
+    left: 645px;
+  }
+
+  .banner-21 {
+    top: 160px;
+    left: 530px;
+  }
+  .banner-22 {
+    top: 240px;
+    left: 530px;
+  }
+  .banner-23 {
+    top: 310px;
+    left: 530px;
+  }
+  .banner-24 {
+    top: 400px;
+    left: 530px;
+  }
+
+  .banner-25 {
+    top: 120px;
+    left: 440px;
+  }
+
+  .banner-26 {
+    top: 170px;
+    left: 420px;
+  }
+
+  .banner-27 {
+    top: 240px;
+    left: 420px;
+  }
+
+  .banner-28 {
+    top: 290px;
+    left: 400px;
+  }
+
+  .banner-29 {
+    top: 370px;
+    left: 380px;
+  }
+
+  .banner-30 {
+    top: 90px;
+    left: 360px;
+  }
+  .banner-31 {
+    top: 90px;
+    left: 250px;
+  }
+  .banner-32 {
+    top: 160px;
+    left: 265px;
+  }
+  .banner-33 {
+    top: 225px;
+    left: 240px;
+  }
+  .banner-34 {
+    top: 285px;
+    left: 220px;
+  }
+  .banner-35 {
+    top: 375px;
+    left: 185px;
+  }
+}

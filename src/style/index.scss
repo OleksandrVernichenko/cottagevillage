@@ -1,0 +1,199 @@
+@font-face {
+  font-family: "Neumann Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Neumann Regular"), url("./fonts/TD-Neumann.woff") format("woff");
+}
+@font-face {
+  font-family: "Museo Sans Cyrl";
+  font-style: normal;
+  font-weight: 100;
+  src: local("MuseoSansCyrl-100"),
+    url("./fonts/MuseoSansCyrl-100.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Museo Sans Cyrl";
+  font-style: normal;
+  font-weight: 300;
+  src: local("MuseoSansCyrl-300"),
+    url("./fonts/MuseoSansCyrl-300.woff") format("woff");
+}
+@font-face {
+  font-family: "Museo Sans Cyrl";
+  font-style: normal;
+  font-weight: 500;
+  src: local("MuseoSansCyrl-500"),
+    url("./fonts/MuseoSansCyrl-500.woff") format("woff");
+}
+@font-face {
+  font-family: "Museo Sans Cyrl";
+  font-style: normal;
+  font-weight: 700;
+  src: local("MuseoSansCyrl-700"),
+    url("./fonts/MuseoSansCyrl-700.woff") format("woff");
+}
+@font-face {
+  font-family: "Museo Sans Cyrl";
+  font-style: normal;
+  font-weight: 900;
+  src: local("MuseoSansCyrl-900"),
+    url("./fonts/MuseoSansCyrl-900.woff") format("woff");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+a {
+  text-decoration: none;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Museo Sans Cyrl", sans-serif;
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+
+main {
+  position: relative;
+  .first {
+    background-color: #f5f5f5;
+  }
+  .photo-area {
+    background-image: url(../components/images/pageImages/photo-area.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .section-whiteBox {
+    background: #3766cc;
+  }
+  .singleCottage {
+    background-color: #333352;
+  }
+}

@@ -1,0 +1,544 @@
+.wall {
+  padding-top: 100px;
+  h2 {
+    text-align: center;
+    font-family: "Neumann";
+    font-size: 68px;
+    color: #28292e;
+    line-height: 80px;
+    span {
+      font-size: 45px;
+    }
+  }
+  .brick {
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    .brickR {
+      display: flex;
+    }
+    .brickR-image {
+      figure {
+        position: relative;
+        width: 60%;
+        border: #28292e;
+        img:last-of-type {
+          position: absolute;
+          top: -60px;
+          right: -275px;
+        }
+      }
+    }
+    .brickR-description {
+      width: 40%;
+      padding: 0 60px;
+      h6 {
+        font-family: "Museo Sans Cyrl";
+        font-weight: 900;
+        font-size: 30px;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 20px;
+        color: #28292e;
+        line-height: 34px;
+        font-weight: 300;
+      }
+    }
+  }
+  .quality {
+    padding-top: 100px;
+    display: flex;
+    h6 {
+      font-weight: 900;
+      font-size: 30px;
+      line-height: 42px;
+      color: #28292e;
+    }
+    &-description {
+      padding-top: 20px;
+      width: 40%;
+      padding-right: 80px;
+
+      p {
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 34px;
+      }
+    }
+    &-factors {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      width: 60%;
+      padding: 20px 0px 5px 0px;
+      border: #ebebeb 1px solid;
+      ul {
+        padding-top: 50px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        li {
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+  .safety {
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+    &-image {
+      width: 60%;
+
+      figure {
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    &-description {
+      width: 40%;
+      padding: 0 30px 0 70px;
+
+      h6 {
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 42px;
+        color: #28292e;
+      }
+      p {
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 34px;
+      }
+    }
+  }
+  .protection {
+    padding-top: 100px;
+    display: flex;
+    &-description {
+      width: 40%;
+      padding-right: 60px;
+      h6 {
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 42px;
+        color: #28292e;
+      }
+      p {
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 34px;
+      }
+    }
+    &-image {
+      width: 60%;
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+  .whiteBox {
+    padding-top: 100px;
+    display: flex;
+    &-image {
+      width: 60%;
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+    &-description {
+      width: 40%;
+      padding: 0 40px 0 80px;
+      h6 {
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 42px;
+        color: #28292e;
+      }
+      p {
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 34px;
+      }
+      ul {
+        padding-top: 10px;
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 300;
+        list-style: disc;
+      }
+    }
+  }
+}
+
+@media (min-width: 740px) and (max-width: 1199px) {
+  .wall {
+    padding: 100px 20px 50px 20px;
+    h2 {
+      font-size: 60px;
+      line-height: 70px;
+      span {
+        font-size: 40px;
+      }
+    }
+
+    .brick {
+      width: 100%;
+      padding-top: 50px;
+      flex-direction: column;
+      align-items: center;
+      .brickR {
+        flex-direction: column-reverse;
+        align-items: center;
+      }
+      .brickR-image {
+        figure {
+          width: 60%;
+        }
+      }
+      .brickR-description {
+        width: 80%;
+        padding: 20px 20px;
+        text-align: center;
+      }
+    }
+
+    .quality {
+      padding-top: 50px;
+      flex-direction: column;
+      align-items: center;
+      &-description {
+        width: 80%;
+        text-align: center;
+        padding: 0 0 40px 0;
+      }
+      &-factors {
+        width: 80%;
+      }
+    }
+
+    .safety {
+      flex-direction: column-reverse;
+      align-items: center;
+      &-image {
+        width: 80%;
+      }
+      &-description {
+        width: 80%;
+        padding: 0 0 40px 0;
+        text-align: center;
+      }
+    }
+
+    .protection {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      &-description {
+        width: 80%;
+
+        padding: 0 0 40px 0;
+      }
+      &-image {
+        width: 80%;
+      }
+    }
+
+    .whiteBox {
+      flex-direction: column-reverse;
+      align-items: center;
+      &-image {
+        width: 80%;
+      }
+      &-description {
+        h6 {
+          text-align: center;
+        }
+        width: 80%;
+        padding: 0 0 40px 10px;
+      }
+    }
+  }
+}
+
+@media (min-width: 600px) and (max-width: 740px) {
+  .wall {
+    padding: 100px 20px 50px 20px;
+    h2 {
+      font-size: 60px;
+      line-height: 70px;
+      span {
+        font-size: 40px;
+      }
+    }
+
+    .brick {
+      width: 80%;
+      padding-top: 50px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .brickR {
+        flex-direction: column-reverse;
+        align-items: center;
+      }
+      .brickR-image {
+        figure {
+          img {
+            height: 100%;
+            width: 100%;
+          }
+          width: 100%;
+          img:last-of-type {
+            position: absolute;
+            width: 60%;
+            aspect-ratio: 1;
+            top: -60px;
+            right: 0px;
+          }
+        }
+      }
+      .brickR-description {
+        width: 80%;
+        padding: 20px 20px;
+        text-align: center;
+      }
+    }
+
+    .quality {
+      padding-top: 50px;
+      flex-direction: column;
+      align-items: center;
+      &-description {
+        width: 80%;
+        text-align: center;
+        padding: 0 0 40px 0;
+      }
+      &-factors {
+        width: 80%;
+      }
+    }
+
+    .safety {
+      flex-direction: column-reverse;
+      align-items: center;
+      &-image {
+        width: 80%;
+      }
+      &-description {
+        width: 80%;
+        padding: 0 0 40px 0;
+        text-align: center;
+      }
+    }
+
+    .protection {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      &-description {
+        width: 80%;
+
+        padding: 0 0 40px 0;
+      }
+      &-image {
+        width: 80%;
+      }
+    }
+
+    .whiteBox {
+      flex-direction: column-reverse;
+      align-items: center;
+      &-image {
+        width: 80%;
+      }
+      &-description {
+        h6 {
+          text-align: center;
+        }
+        width: 80%;
+        padding: 0 0 40px 10px;
+      }
+    }
+  }
+}
+
+@media (min-width: 360px) and (max-width: 600px) {
+  .wall {
+    padding: 100px 20px 50px 20px;
+    h2 {
+      font-weight: 400;
+      font-size: 35px;
+      line-height: 52px;
+      span {
+        font-size: 40px;
+      }
+    }
+
+    .brick {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 0;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .brickR {
+        flex-direction: column-reverse;
+        align-items: center;
+      }
+      .brickR-image {
+        figure {
+          img {
+            height: 100%;
+            width: 100%;
+          }
+          width: 100%;
+          img:last-of-type {
+            position: absolute;
+            width: 60%;
+            aspect-ratio: 1;
+            top: -60px;
+            right: 0px;
+          }
+        }
+      }
+      .brickR-description {
+        width: 100%;
+        padding: 20px 20px;
+        text-align: left;
+        h6 {
+          line-height: 30px;
+          font-size: 16px;
+          font-weight: 700;
+        }
+        p {
+          font-weight: 300;
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+    }
+
+    .quality {
+      padding-top: 50px;
+      flex-direction: column;
+      align-items: center;
+      h6 {
+        line-height: 30px;
+        font-size: 16px;
+        font-weight: 700;
+      }
+      p {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+      }
+      &-description {
+        width: 100%;
+        text-align: left;
+        padding: 0 0 40px 0;
+      }
+      &-factors {
+        width: 100%;
+        h6 {
+          font-size: 16px;
+          font-weight: 700;
+          padding-bottom: 10px;
+        }
+      }
+    }
+
+    .safety {
+      flex-direction: column-reverse;
+      align-items: center;
+      padding-top: 50px;
+      h6 {
+        line-height: 30px;
+        font-size: 16px;
+        font-weight: 700;
+      }
+      p {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+      }
+      &-image {
+        width: 100%;
+      }
+      &-description {
+        text-align: left;
+        width: 100%;
+        padding: 0 0 40px 0;
+        text-align: center;
+      }
+    }
+
+    .protection {
+      flex-direction: column;
+      padding-top: 50px;
+      align-items: center;
+      text-align: center;
+      h6 {
+        line-height: 30px;
+        font-size: 16px;
+        font-weight: 700;
+      }
+      p {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+      }
+      &-description {
+        width: 100%;
+        text-align: left;
+        padding: 0 0 40px 0;
+      }
+      &-image {
+        width: 100%;
+      }
+    }
+
+    .whiteBox {
+      flex-direction: column-reverse;
+      align-items: center;
+      h6 {
+        line-height: 30px;
+        font-size: 16px;
+        font-weight: 700;
+      }
+      p {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+      }
+      &-image {
+        width: 100%;
+      }
+      &-description {
+        h6 {
+          text-align: center;
+        }
+        width: 100%;
+        padding: 0 0 40px 10px;
+      }
+    }
+  }
+}

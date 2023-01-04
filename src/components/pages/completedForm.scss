@@ -1,0 +1,86 @@
+.completedForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin: 0 auto;
+  padding: 100px 400px 130px 400px;
+  text-align: center;
+  h3 {
+    font-family: "Neumann Regular";
+    color: #28292e;
+    font-weight: 400;
+    font-size: 68px;
+    line-height: 100px;
+  }
+  &-feedback {
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    color: #28292e;
+  }
+  &-number {
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #28292e;
+    &-info {
+      margin-bottom: 20px;
+    }
+  }
+  .completedForm-number-color {
+    color: #e9c878;
+    font-weight: 500;
+  }
+
+  .phone-number {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 36px;
+    /* identical to box height, or 106% */
+
+    text-align: center;
+
+    color: #28292e;
+  }
+
+  a {
+    margin-top: 50px;
+    font-size: 30px;
+    color: #28292e;
+    font-family: "Neumann Regular";
+    text-decoration: underline;
+  }
+}
+
+@media (min-width: 740px) and (max-width: 1199px) {
+  .completedForm {
+    padding: 100px 200px 130px 200px;
+  }
+}
+
+
+
+@media (min-width: 360px) and (max-width: 740px) {
+  .completedForm {
+    padding: 50px;
+    h3{
+      font-size: 35px;
+    }
+    &-feedback {
+      font-size: 20px;
+    }
+    &-number {
+      font-size: 20px;
+    }
+    .phone-number {
+      font-size: 20px;
+    }
+  }
+}

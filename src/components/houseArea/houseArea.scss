@@ -1,0 +1,212 @@
+.house-area {
+  width: 1170px;
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+
+  &-sign {
+    text-align: center;
+    font-weight: 400;
+    font-size: 68px;
+    line-height: 100px;
+    font-family: "Neumann Regular";
+    color: #28292e;
+    padding-bottom: 80px;
+  }
+  &-triangle {
+    margin-bottom: 60px;
+  }
+  &-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 1px;
+    background-color: #ebebeb;
+    border: 1px solid #ebebeb;
+    &-item {
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      font-family: "Museo Sans Cyrl";
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 28px;
+      width: calc((1170px - 3px) / 3);
+      padding: 40px 20px;
+      text-align: center;
+      .counter {
+        position: absolute;
+        top: 10px;
+        font-family: "Neumann Regular";
+
+        left: 10px;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 37px;
+        color: #e9c878;
+      }
+      p {
+        margin-top: 10px;
+        height: 40%;
+      }
+    }
+  }
+  &-grid {
+    &-item {
+      margin-bottom: 50px;
+      display: grid;
+      gap: 10px;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      position: relative;
+
+      &-1 {
+        grid-column: 1/2;
+        grid-row: 1/3;
+      }
+      &-2 {
+        grid-column: 2/4;
+        grid-row: 1/2;
+      }
+      &-3 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+      }
+      &-4 {
+        grid-column: 3/4;
+        grid-row: 2/3;
+      }
+      &-text {
+        position: absolute;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.15);
+        color: white;
+        top: 20px;
+        left: 20px;
+      }
+      &-price {
+        position: absolute;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.15);
+        color: white;
+        top: 60px;
+        left: 20px;
+      }
+    }
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1199px) {
+  .house-area {
+    width: 100%;
+    &-sign {
+      font-size: 55px;
+      line-height: 80px;
+    }
+    &-list {
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+      // margin: 0 auto;
+      width: 95%;
+      &-item {
+        width: 100%;
+      }
+    }
+
+    &-grid {
+      width: 100%;
+      padding: 20px;
+      &-item {
+        justify-items: stretch;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        &-1 {
+          grid-column: 1/3;
+          grid-row: 1/3;
+        }
+        &-2 {
+          grid-column: 1/3;
+          grid-row: 3/4;
+        }
+        &-3 {
+          grid-column: 1/2;
+          grid-row: 4/5;
+        }
+        &-4 {
+          grid-column: 2/3;
+          grid-row: 4/5;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 360px) and (max-width: 640px) {
+
+  .house-area {
+    width: 100%;
+    &-sign {
+      font-size: 35px;
+      line-height: 50px;
+    }
+    &-triangle {
+      display: none;
+    }
+    &-list {
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+      // margin: 0 auto;
+      width: 95%;
+      &-item {
+        width: 100%;
+        font-size: 18px;
+        line-height: 26px;
+      }
+    }
+
+    &-grid {
+      width: 100%;
+      padding: 20px;
+      &-item {
+        justify-items: stretch;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        margin-bottom: 0;
+
+        img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+        &-1 {
+          grid-column: 1/3;
+          grid-row: 1/3;
+        }
+        &-2 {
+          grid-column: 1/3;
+          grid-row: 3/4;
+        }
+        &-3 {
+          grid-column: 1/2;
+          grid-row: 4/5;
+        }
+        &-4 {
+          grid-column: 2/3;
+          grid-row: 4/5;
+        }
+        &-price {
+          top: 80px;
+        }
+      }
+    }
+  }
+}
