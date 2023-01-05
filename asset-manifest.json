@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cottagevillage/static/css/main.4dbffaea.css",
+    "main.css": "/cottagevillage/static/css/main.add8b343.css",
     "main.js": "/cottagevillage/static/js/main.3563d550.js",
     "static/media/1.jpg": "/cottagevillage/static/media/1.625ee4badc98b68de21c.jpg",
     "static/media/plan.jpg": "/cottagevillage/static/media/plan.16c8e3812d950525b91d.jpg",
@@ -65,11 +65,11 @@
     "static/media/error.gif": "/cottagevillage/static/media/error.42292aa12b6bc303ce99.gif",
     "static/media/arrow.png": "/cottagevillage/static/media/arrow.1fe5dc33618502a3d391.png",
     "index.html": "/cottagevillage/index.html",
-    "main.4dbffaea.css.map": "/cottagevillage/static/css/main.4dbffaea.css.map",
+    "main.add8b343.css.map": "/cottagevillage/static/css/main.add8b343.css.map",
     "main.3563d550.js.map": "/cottagevillage/static/js/main.3563d550.js.map"
   },
   "entrypoints": [
-    "static/css/main.4dbffaea.css",
+    "static/css/main.add8b343.css",
     "static/js/main.3563d550.js"
   ]
 }
