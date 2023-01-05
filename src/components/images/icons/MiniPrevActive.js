@@ -17,7 +17,7 @@ const MiniPrevActive = () => {
         y="50"
         fill="#007AFF"
         rx="25"
-        transform="rotate(-180 50 50)"
+        transform="rotate(180 50 50)"
       ></rect>
       <path
         stroke="#fff"
