@@ -21,14 +21,12 @@
     }
     button {
       border: none;
-      border-radius: 50%;
       background-color: transparent;
-        height: 50px;
-        width: 50px;
-        cursor: pointer;
+
+      cursor: pointer;
     }
-    button:last-of-type{
-        margin-left: 10px;
+    button:last-of-type {
+      margin-left: 10px;
     }
   }
 
@@ -52,8 +50,7 @@
   }
 }
 
-
-@media (min-width: 875px) and (max-width: 1199px){
+@media (min-width: 875px) and (max-width: 1199px) {
   .topSlide {
     flex-direction: column;
     align-items: center;
@@ -64,22 +61,22 @@
       width: 100%;
     }
   }
-  .topSlide-reverse{
+  .topSlide-reverse {
     flex-direction: column-reverse;
   }
 }
 
-@media (min-width: 600px) and (max-width: 875px){
+@media (min-width: 600px) and (max-width: 875px) {
   .topSlide {
     flex-direction: column;
     align-items: center;
     &-description {
       width: 100%;
-      h4{
+      h4 {
         font-size: 35px;
         line-height: 50px;
       }
-      p{
+      p {
         font-size: 18px;
       }
     }
@@ -87,18 +84,18 @@
       width: 100%;
     }
   }
-  .topSlide-reverse{
+  .topSlide-reverse {
     flex-direction: column-reverse;
   }
 }
 
-@media (min-width: 360px) and (max-width: 600px){
+@media (min-width: 360px) and (max-width: 600px) {
   .topSlide {
     flex-direction: column;
     align-items: center;
     &-description {
       width: 100%;
-      p{
+      p {
         font-size: 16px;
       }
     }
@@ -106,7 +103,7 @@
       width: 100%;
     }
   }
-  .topSlide-reverse{
+  .topSlide-reverse {
     flex-direction: column-reverse;
   }
 }
