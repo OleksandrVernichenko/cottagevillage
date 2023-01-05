@@ -54,21 +54,16 @@
   }
 }
 
-
-
-
-@media (min-width: 740px) and (max-width: 1199px){
+@media (min-width: 740px) and (max-width: 1199px) {
   .cottageFooter {
     &-wrapper {
       width: 100%;
       padding: 20px;
-      
     }
   }
 }
 
-
-@media (min-width: 360px) and (max-width: 740px){
+@media (min-width: 360px) and (max-width: 740px) {
   .cottageFooter {
     &-wrapper {
       width: 100%;
@@ -76,12 +71,16 @@
       flex-direction: column;
       align-items: flex-start;
       gap: 15px;
-      h2{
+      h2 {
         font-size: 26px;
         line-height: 38px;
       }
       &-contacts {
         text-align: left;
+        padding-left: 10px;
+      }
+      &-time::before {
+        left: -10px;
       }
     }
   }

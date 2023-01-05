@@ -54,9 +54,7 @@
   }
 }
 
-
-
-@media (min-width: 740px) and (max-width: 1199px){
+@media (min-width: 740px) and (max-width: 1199px) {
   .cottageHeader {
     &-wrapper {
       width: 100%;
@@ -65,7 +63,7 @@
   }
 }
 
-@media (min-width: 360px) and (max-width: 740px){
+@media (min-width: 360px) and (max-width: 740px) {
   .cottageHeader {
     &-wrapper {
       width: 100%;
@@ -78,6 +76,10 @@
       }
       &-contacts {
         text-align: left;
+        padding-left: 10px;
+      }
+      &-time::before {
+        left: -10px;
       }
     }
   }
