@@ -35,7 +35,7 @@ const Cottage = () => {
       <main>
         <section className="singleCottage">
           <div className="cottageItem">
-            <HashLink to={"/#houseSelect"}>
+            <HashLink to={"/cottagevillage#houseSelect"}>
               <Left />к выбору коттеджей
             </HashLink>
 
@@ -224,7 +224,9 @@ const InteriorSlider = ({ name, square }) => {
         <div className="interiorSlide-description-info">
           <h3>
             ШОУРУМ коттеджа -&nbsp;
-            <span className="interiorSlide-description-info-name"> {`${name}`}
+            <span className="interiorSlide-description-info-name">
+              {" "}
+              {`${name}`}
             </span>
             <span className="interiorSlide-description-info-square">{`${square} КВ.М`}</span>
           </h3>

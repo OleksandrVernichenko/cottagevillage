@@ -17,7 +17,10 @@ const Page404 = () => {
         {" "}
         Вы перешли на несуществующую страницу{" "}
       </h1>
-      <Link to="/" style={{ fontSize: "25px", color: "darkblue" }}>
+      <Link
+        to="/cottagevillage"
+        style={{ fontSize: "25px", color: "darkblue" }}
+      >
         {" "}
         Вернуться на главную страницу{" "}
       </Link>

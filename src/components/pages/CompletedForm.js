@@ -22,7 +22,7 @@ const CompletedForm = () => {
             <span className="phone-number">+38 (000) 123-124</span>
           </div>
 
-          <Link to={"/"}>Главная</Link>
+          <Link to={"/cottagevillage"}>Главная</Link>
         </div>
       </main>
     </>

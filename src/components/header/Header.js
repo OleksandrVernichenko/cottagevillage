@@ -41,7 +41,7 @@ const Header = () => {
             </h2>
           </div>
           <div className="header-service">
-            <HashLink to={'/#houseSelect'} className="header-service-select">
+            <HashLink to={'/cottagevillage#houseSelect'} className="header-service-select">
               <EnglishCottage /> выберете свой коттедж
             </HashLink>
             <div className="header-service-look">

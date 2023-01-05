@@ -8,7 +8,7 @@ const App = () => {
     <Router>
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={<MainPage />} />
+        <Route path="/cottagevillage" element={<MainPage />} />
         <Route path="/#houseSelect" element={<MainPage />} />
         <Route path="/cottage/:cottageId" element={<Cottage />} />
         <Route path="/completed"  element={<CompletedForm />}/>
