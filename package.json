@@ -43,6 +43,7 @@
   },
   "devDependencies": {
     "@material-ui/core": "^4.12.4",
+    "gh-pages": "^4.0.0",
     "react-router-hash-link": "^2.4.3"
   }
 }
