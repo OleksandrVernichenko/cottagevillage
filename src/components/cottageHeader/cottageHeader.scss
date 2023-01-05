@@ -79,7 +79,7 @@
         padding-left: 10px;
       }
       &-time::before {
-        left: -10px;
+        display: none;
       }
     }
   }
