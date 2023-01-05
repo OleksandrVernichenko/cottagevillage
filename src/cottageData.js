@@ -1,3 +1,98 @@
+import house1 from "./components/images/houses/house1/house1.jpg";
+import house2 from "./components/images/houses/house1/house2.jpg";
+import house3 from "./components/images/houses/house1/house3.jpg";
+import house4 from "./components/images/houses/house1/house4.jpg";
+import house5 from "./components/images/houses/house1/house5.jpg";
+import house6 from "./components/images/houses/house1/house6.jpg";
+
+import floor1 from "./components/images/houses/house1/first.jpg";
+import floor2 from "./components/images/houses/house1/second.jpg";
+
+import house7 from "./components/images/houses/house2/house1.jpg";
+import house8 from "./components/images/houses/house2/house2.jpg";
+import house9 from "./components/images/houses/house2/house3.jpg";
+import house10 from "./components/images/houses/house2/house4.jpg";
+import house11 from "./components/images/houses/house2/house5.jpg";
+
+import floor3 from "./components/images/houses/house2/first.jpg";
+import floor4 from "./components/images/houses/house2/second.jpg";
+
+import house12 from "./components/images/houses/house3/house1.jpg";
+import house13 from "./components/images/houses/house3/house2.jpg";
+import house14 from "./components/images/houses/house3/house3.jpg";
+import house15 from "./components/images/houses/house3/house4.jpg";
+import house16 from "./components/images/houses/house3/house5.jpg";
+
+import floor5 from "./components/images/houses/house3/first.jpg";
+import floor6 from "./components/images/houses/house3/second.jpg";
+
+import house17 from "./components/images/houses/house4/house1.jpg";
+import house18 from "./components/images/houses/house4/house2.jpg";
+import house19 from "./components/images/houses/house4/house3.jpg";
+import house20 from "./components/images/houses/house4/house4.jpg";
+import house21 from "./components/images/houses/house4/house5.jpg";
+import house22 from "./components/images/houses/house4/house6.jpg";
+
+import floor7 from "./components/images/houses/house4/first.jpg";
+import floor8 from "./components/images/houses/house4/second.jpg";
+
+import house23 from "./components/images/houses/house5/house1.jpg";
+import house24 from "./components/images/houses/house5/house2.jpg";
+import house25 from "./components/images/houses/house5/house3.jpg";
+import house26 from "./components/images/houses/house5/house4.jpg";
+import house27 from "./components/images/houses/house5/house5.jpg";
+import house28 from "./components/images/houses/house5/house6.jpg";
+
+import floor9 from "./components/images/houses/house5/first.jpg";
+import floor10 from "./components/images/houses/house5/second.jpg";
+
+import house29 from "./components/images/houses/house6/house1.jpg";
+import house30 from "./components/images/houses/house6/house2.jpg";
+import house31 from "./components/images/houses/house6/house3.jpg";
+import house32 from "./components/images/houses/house6/house4.jpg";
+
+import floor11 from "./components/images/houses/house6/first.jpg";
+import floor12 from "./components/images/houses/house6/second.jpg";
+
+import house33 from "./components/images/houses/house7/house1.jpg";
+import house34 from "./components/images/houses/house7/house2.jpg";
+import house35 from "./components/images/houses/house7/house3.jpg";
+import house36 from "./components/images/houses/house7/house4.jpg";
+import house37 from "./components/images/houses/house7/house5.jpg";
+import house38 from "./components/images/houses/house7/house6.jpg";
+
+import floor13 from "./components/images/houses/house7/first.jpg";
+import floor14 from "./components/images/houses/house7/second.jpg";
+
+import house39 from "./components/images/houses/house8/house1.jpg";
+import house40 from "./components/images/houses/house8/house2.jpg";
+import house41 from "./components/images/houses/house8/house3.jpg";
+import house42 from "./components/images/houses/house8/house4.jpg";
+import house43 from "./components/images/houses/house8/house5.jpg";
+
+import floor15 from "./components/images/houses/house8/first.jpg";
+import floor16 from "./components/images/houses/house8/second.jpg";
+
+import house44 from "./components/images/houses/house9/house1.jpg";
+import house45 from "./components/images/houses/house9/house2.jpg";
+import house46 from "./components/images/houses/house9/house3.jpg";
+import house47 from "./components/images/houses/house9/house4.jpg";
+import house48 from "./components/images/houses/house9/house5.jpg";
+import house49 from "./components/images/houses/house9/house6.jpg";
+
+import floor17 from "./components/images/houses/house9/first.jpg";
+import floor18 from "./components/images/houses/house9/second.jpg";
+
+import house50 from "./components/images/houses/house10/house1.jpg";
+import house51 from "./components/images/houses/house10/house2.jpg";
+import house52 from "./components/images/houses/house10/house3.jpg";
+import house53 from "./components/images/houses/house10/house4.jpg";
+import house54 from "./components/images/houses/house10/house5.jpg";
+import house55 from "./components/images/houses/house10/house6.jpg";
+
+import floor19 from "./components/images/houses/house10/first.jpg";
+import floor20 from "./components/images/houses/house10/second.jpg";
+
 const data = [
   {
     name: "U92",
@@ -5,15 +100,8 @@ const data = [
     area: "6.6",
     available: "true",
     price: "по запросу",
-    images: [
-      "../images/house1/house1.jpg",
-      "../images/house1/house2.jpg",
-      "../images/house1/house3.jpg",
-      "../images/house1/house4.jpg",
-      "../images/house1/house5.jpg",
-      "../images/house1/house6.jpg",
-    ],
-    floors: ["../images/house1/first.jpg", "../images/house1/second.jpg"],
+    images: [house1, house2, house3, house4, house5, house6],
+    floors: [floor1, floor2],
     id: 1,
   },
   {
@@ -22,14 +110,8 @@ const data = [
     area: "4.44",
     available: "true",
     price: "по запросу",
-    images: [
-      "../images/house2/house1.jpg",
-      "../images/house2/house2.jpg",
-      "../images/house2/house3.jpg",
-      "../images/house2/house4.jpg",
-      "../images/house2/house5.jpg",
-    ],
-    floors: ["../images/house2/first.jpg", "../images/house2/second.jpg"],
+    images: [house7, house8, house9, house10, house11],
+    floors: [floor3, floor4],
     id: 2,
   },
   {
@@ -38,14 +120,8 @@ const data = [
     area: "10",
     available: "false",
     price: "2 500 000",
-    images: [
-      "../images/house3/house1.jpg",
-      "../images/house3/house2.jpg",
-      "../images/house3/house3.jpg",
-      "../images/house3/house4.jpg",
-      "../images/house3/house5.jpg",
-    ],
-    floors: ["../images/house3/first.jpg", "../images/house3/second.jpg"],
+    images: [house12, house13, house14, house15, house16],
+    floors: [floor5, floor6],
     id: 3,
   },
   {
@@ -54,15 +130,8 @@ const data = [
     area: "7.01",
     available: "none",
     price: "1 500 000",
-    images: [
-      "../images/house4/house1.jpg",
-      "../images/house4/house2.jpg",
-      "../images/house4/house3.jpg",
-      "../images/house4/house4.jpg",
-      "../images/house4/house5.jpg",
-      "../images/house4/house6.jpg",
-    ],
-    floors: ["../images/house4/first.jpg", "../images/house4/second.jpg"],
+    images: [house17, house18, house19, house20, house21, house22],
+    floors: [floor7, floor8],
     id: 4,
   },
   {
@@ -71,15 +140,8 @@ const data = [
     area: "4.55",
     available: "false",
     price: "2 199 000",
-    images: [
-      "../images/house5/house1.jpg",
-      "../images/house5/house2.jpg",
-      "../images/house5/house3.jpg",
-      "../images/house5/house4.jpg",
-      "../images/house5/house5.jpg",
-      "../images/house5/house6.jpg",
-    ],
-    floors: ["../images/house5/first.jpg", "../images/house5/second.jpg"],
+    images: [house23, house24, house25, house26, house27, house28],
+    floors: [floor9, floor10],
     id: 5,
   },
   {
@@ -88,13 +150,8 @@ const data = [
     area: "5.89",
     available: "true",
     price: "1 600 000",
-    images: [
-      "../images/house6/house1.jpg",
-      "../images/house6/house2.jpg",
-      "../images/house6/house3.jpg",
-      "../images/house6/house4.jpg",
-    ],
-    floors: ["../images/house6/first.jpg", "../images/house6/second.jpg"],
+    images: [house29, house30, house31, house32],
+    floors: [floor11, floor12],
     id: 6,
   },
   {
@@ -103,15 +160,8 @@ const data = [
     area: "6.12",
     available: "none",
     price: "2 099 999",
-    images: [
-      "../images/house7/house1.jpg",
-      "../images/house7/house2.jpg",
-      "../images/house7/house3.jpg",
-      "../images/house7/house4.jpg",
-      "../images/house7/house5.jpg",
-      "../images/house7/house6.jpg",
-    ],
-    floors: ["../images/house7/first.jpg", "../images/house7/second.jpg"],
+    images: [house33, house34, house35, house36, house37, house38],
+    floors: [floor13, floor14],
     id: 7,
   },
   {
@@ -120,14 +170,8 @@ const data = [
     area: "6.45",
     available: "true",
     price: "2 000 000",
-    images: [
-      "../images/house8/house1.jpg",
-      "../images/house8/house2.jpg",
-      "../images/house8/house3.jpg",
-      "../images/house8/house4.jpg",
-      "../images/house8/house5.jpg",
-    ],
-    floors: ["../images/house8/first.jpg", "../images/house8/second.jpg"],
+    images: [house39, house40, house41, house42, house43],
+    floors: [floor15, floor16],
     id: 8,
   },
   {
@@ -136,15 +180,8 @@ const data = [
     area: "8.99",
     available: "none",
     price: "2 677 000",
-    images: [
-      "../images/house9/house1.jpg",
-      "../images/house9/house2.jpg",
-      "../images/house9/house3.jpg",
-      "../images/house9/house4.jpg",
-      "../images/house9/house5.jpg",
-      "../images/house9/house6.jpg",
-    ],
-    floors: ["../images/house9/first.jpg", "../images/house9/second.jpg"],
+    images: [house44, house45, house46, house47, house48, house49],
+    floors: [floor17, floor18],
     id: 9,
   },
   {
@@ -153,15 +190,8 @@ const data = [
     area: "7.45",
     available: "true",
     price: "по запросу",
-    images: [
-      "../images/house10/house1.jpg",
-      "../images/house10/house2.jpg",
-      "../images/house10/house3.jpg",
-      "../images/house10/house4.jpg",
-      "../images/house10/house5.jpg",
-      "../images/house10/house6.jpg",
-    ],
-    floors: ["../images/house10/first.jpg", "../images/house10/second.jpg"],
+    images: [house50, house51, house52, house53, house54, house55],
+    floors: [floor19, floor20],
     id: 10,
   },
   {
@@ -170,15 +200,8 @@ const data = [
     area: "6.6",
     available: "false",
     price: "по запросу",
-    images: [
-      "../images/house1/house1.jpg",
-      "../images/house1/house2.jpg",
-      "../images/house1/house3.jpg",
-      "../images/house1/house4.jpg",
-      "../images/house1/house5.jpg",
-      "../images/house1/house6.jpg",
-    ],
-    floors: ["../images/house1/first.jpg", "../images/house1/second.jpg"],
+    images: [house1, house2, house3, house4, house5, house6],
+    floors: [floor1, floor2],
     id: 11,
   },
   {
@@ -187,14 +210,8 @@ const data = [
     area: "5.54",
     available: "none",
     price: "по запросу",
-    images: [
-      "../images/house2/house1.jpg",
-      "../images/house2/house2.jpg",
-      "../images/house2/house3.jpg",
-      "../images/house2/house4.jpg",
-      "../images/house2/house5.jpg",
-    ],
-    floors: ["../images/house2/first.jpg", "../images/house2/second.jpg"],
+    images: [house7, house8, house9, house10, house11],
+    floors: [floor3, floor4],
     id: 12,
   },
   {
@@ -203,14 +220,8 @@ const data = [
     area: "10",
     available: "true",
     price: "1 300 000",
-    images: [
-      "../images/house3/house1.jpg",
-      "../images/house3/house2.jpg",
-      "../images/house3/house3.jpg",
-      "../images/house3/house4.jpg",
-      "../images/house3/house5.jpg",
-    ],
-    floors: ["../images/house3/first.jpg", "../images/house3/second.jpg"],
+    images: [house12, house13, house14, house15, house16],
+    floors: [floor5, floor6],
     id: 13,
   },
   {
@@ -219,15 +230,8 @@ const data = [
     area: "7.01",
     available: "false",
     price: "1 500 000",
-    images: [
-      "../images/house4/house1.jpg",
-      "../images/house4/house2.jpg",
-      "../images/house4/house3.jpg",
-      "../images/house4/house4.jpg",
-      "../images/house4/house5.jpg",
-      "../images/house4/house6.jpg",
-    ],
-    floors: ["../images/house4/first.jpg", "../images/house4/second.jpg"],
+    images: [house17, house18, house19, house20, house21, house22],
+    floors: [floor7, floor8],
     id: 14,
   },
   {
@@ -236,15 +240,8 @@ const data = [
     area: "4.55",
     available: "true",
     price: "1 699 000",
-    images: [
-      "../images/house5/house1.jpg",
-      "../images/house5/house2.jpg",
-      "../images/house5/house3.jpg",
-      "../images/house5/house4.jpg",
-      "../images/house5/house5.jpg",
-      "../images/house5/house6.jpg",
-    ],
-    floors: ["../images/house5/first.jpg", "../images/house5/second.jpg"],
+    images: [house23, house24, house25, house26, house27, house28],
+    floors: [floor9, floor10],
     id: 15,
   },
   {
@@ -253,13 +250,8 @@ const data = [
     area: "5.89",
     available: "none",
     price: "1 600 000",
-    images: [
-      "../images/house6/house1.jpg",
-      "../images/house6/house2.jpg",
-      "../images/house6/house3.jpg",
-      "../images/house6/house4.jpg",
-    ],
-    floors: ["../images/house6/first.jpg", "../images/house6/second.jpg"],
+    images: [house29, house30, house31, house32],
+    floors: [floor11, floor12],
     id: 16,
   },
   {
@@ -268,15 +260,8 @@ const data = [
     area: "6.12",
     available: "false",
     price: "2 099 999",
-    images: [
-      "../images/house7/house1.jpg",
-      "../images/house7/house2.jpg",
-      "../images/house7/house3.jpg",
-      "../images/house7/house4.jpg",
-      "../images/house7/house5.jpg",
-      "../images/house7/house6.jpg",
-    ],
-    floors: ["../images/house7/first.jpg", "../images/house7/second.jpg"],
+    images: [house33, house34, house35, house36, house37, house38],
+    floors: [floor13, floor14],
     id: 17,
   },
   {
@@ -285,14 +270,8 @@ const data = [
     area: "6.45",
     available: "true",
     price: "2 000 000",
-    images: [
-      "../images/house8/house1.jpg",
-      "../images/house8/house2.jpg",
-      "../images/house8/house3.jpg",
-      "../images/house8/house4.jpg",
-      "../images/house8/house5.jpg",
-    ],
-    floors: ["../images/house8/first.jpg", "../images/house8/second.jpg"],
+    images: [house39, house40, house41, house42, house43],
+    floors: [floor15, floor16],
     id: 18,
   },
   {
@@ -301,15 +280,8 @@ const data = [
     area: "8.99",
     available: "none",
     price: "2 677 000",
-    images: [
-      "../images/house9/house1.jpg",
-      "../images/house9/house2.jpg",
-      "../images/house9/house3.jpg",
-      "../images/house9/house4.jpg",
-      "../images/house9/house5.jpg",
-      "../images/house9/house6.jpg",
-    ],
-    floors: ["../images/house9/first.jpg", "../images/house9/second.jpg"],
+    images: [house44, house45, house46, house47, house48, house49],
+    floors: [floor17, floor18],
     id: 19,
   },
   {
@@ -318,15 +290,8 @@ const data = [
     area: "7.45",
     available: "true",
     price: "2 900 000",
-    images: [
-      "../images/house10/house1.jpg",
-      "../images/house10/house2.jpg",
-      "../images/house10/house3.jpg",
-      "../images/house10/house4.jpg",
-      "../images/house10/house5.jpg",
-      "../images/house10/house6.jpg",
-    ],
-    floors: ["../images/house10/first.jpg", "../images/house10/second.jpg"],
+    images: [house50, house51, house52, house53, house54, house55],
+    floors: [floor19, floor20],
     id: 20,
   },
   {
@@ -335,13 +300,8 @@ const data = [
     area: "5.89",
     available: "false",
     price: "1 600 000",
-    images: [
-      "../images/house6/house1.jpg",
-      "../images/house6/house2.jpg",
-      "../images/house6/house3.jpg",
-      "../images/house6/house4.jpg",
-    ],
-    floors: ["../images/house6/first.jpg", "../images/house6/second.jpg"],
+    images: [house29, house30, house31, house32],
+    floors: [floor11, floor12],
     id: 21,
   },
   {
@@ -350,15 +310,8 @@ const data = [
     area: "6.12",
     available: "false",
     price: "2 099 999",
-    images: [
-      "../images/house7/house1.jpg",
-      "../images/house7/house2.jpg",
-      "../images/house7/house3.jpg",
-      "../images/house7/house4.jpg",
-      "../images/house7/house5.jpg",
-      "../images/house7/house6.jpg",
-    ],
-    floors: ["../images/house7/first.jpg", "../images/house7/second.jpg"],
+    images: [house33, house34, house35, house36, house37, house38],
+    floors: [floor13, floor14],
     id: 22,
   },
   {
@@ -367,14 +320,8 @@ const data = [
     area: "6.45",
     available: "false",
     price: "2 000 000",
-    images: [
-      "../images/house8/house1.jpg",
-      "../images/house8/house2.jpg",
-      "../images/house8/house3.jpg",
-      "../images/house8/house4.jpg",
-      "../images/house8/house5.jpg",
-    ],
-    floors: ["../images/house8/first.jpg", "../images/house8/second.jpg"],
+    images: [house39, house40, house41, house42, house43],
+    floors: [floor15, floor16],
     id: 23,
   },
   {
@@ -383,15 +330,8 @@ const data = [
     area: "8.99",
     available: "true",
     price: "2 677 000",
-    images: [
-      "../images/house9/house1.jpg",
-      "../images/house9/house2.jpg",
-      "../images/house9/house3.jpg",
-      "../images/house9/house4.jpg",
-      "../images/house9/house5.jpg",
-      "../images/house9/house6.jpg",
-    ],
-    floors: ["../images/house9/first.jpg", "../images/house9/second.jpg"],
+    images: [house44, house45, house46, house47, house48, house49],
+    floors: [floor17, floor18],
     id: 24,
   },
   {
@@ -400,15 +340,8 @@ const data = [
     area: "7.45",
     available: "none",
     price: "по запросу",
-    images: [
-      "../images/house10/house1.jpg",
-      "../images/house10/house2.jpg",
-      "../images/house10/house3.jpg",
-      "../images/house10/house4.jpg",
-      "../images/house10/house5.jpg",
-      "../images/house10/house6.jpg",
-    ],
-    floors: ["../images/house10/first.jpg", "../images/house10/second.jpg"],
+    images: [house50, house51, house52, house53, house54, house55],
+    floors: [floor19, floor20],
     id: 25,
   },
   {
@@ -417,15 +350,8 @@ const data = [
     area: "6.6",
     available: "none",
     price: "по запросу",
-    images: [
-      "../images/house1/house1.jpg",
-      "../images/house1/house2.jpg",
-      "../images/house1/house3.jpg",
-      "../images/house1/house4.jpg",
-      "../images/house1/house5.jpg",
-      "../images/house1/house6.jpg",
-    ],
-    floors: ["../images/house1/first.jpg", "../images/house1/second.jpg"],
+    images: [house1, house2, house3, house4, house5, house6],
+    floors: [floor1, floor2],
     id: 26,
   },
   {
@@ -434,14 +360,8 @@ const data = [
     area: "5.54",
     available: "false",
     price: "по запросу",
-    images: [
-      "../images/house2/house1.jpg",
-      "../images/house2/house2.jpg",
-      "../images/house2/house3.jpg",
-      "../images/house2/house4.jpg",
-      "../images/house2/house5.jpg",
-    ],
-    floors: ["../images/house2/first.jpg", "../images/house2/second.jpg"],
+    images: [house7, house8, house9, house10, house11],
+    floors: [floor3, floor4],
     id: 27,
   },
   {
@@ -450,14 +370,8 @@ const data = [
     area: "10",
     available: "true",
     price: "1 300 000",
-    images: [
-      "../images/house3/house1.jpg",
-      "../images/house3/house2.jpg",
-      "../images/house3/house3.jpg",
-      "../images/house3/house4.jpg",
-      "../images/house3/house5.jpg",
-    ],
-    floors: ["../images/house3/first.jpg", "../images/house3/second.jpg"],
+    images: [house12, house13, house14, house15, house16],
+    floors: [floor5, floor6],
     id: 28,
   },
   {
@@ -466,15 +380,8 @@ const data = [
     area: "7.01",
     available: "true",
     price: "1 500 000",
-    images: [
-      "../images/house4/house1.jpg",
-      "../images/house4/house2.jpg",
-      "../images/house4/house3.jpg",
-      "../images/house4/house4.jpg",
-      "../images/house4/house5.jpg",
-      "../images/house4/house6.jpg",
-    ],
-    floors: ["../images/house4/first.jpg", "../images/house4/second.jpg"],
+    images: [house17, house18, house19, house20, house21, house22],
+    floors: [floor7, floor8],
     id: 29,
   },
   {
@@ -483,15 +390,8 @@ const data = [
     area: "4.55",
     available: "false",
     price: "1 699 000",
-    images: [
-      "../images/house5/house1.jpg",
-      "../images/house5/house2.jpg",
-      "../images/house5/house3.jpg",
-      "../images/house5/house4.jpg",
-      "../images/house5/house5.jpg",
-      "../images/house5/house6.jpg",
-    ],
-    floors: ["../images/house5/first.jpg", "../images/house5/second.jpg"],
+    images: [house23, house24, house25, house26, house27, house28],
+    floors: [floor9, floor10],
     id: 30,
   },
   {
@@ -500,13 +400,8 @@ const data = [
     area: "5.89",
     available: "false",
     price: "1 600 000",
-    images: [
-      "../images/house6/house1.jpg",
-      "../images/house6/house2.jpg",
-      "../images/house6/house3.jpg",
-      "../images/house6/house4.jpg",
-    ],
-    floors: ["../images/house6/first.jpg", "../images/house6/second.jpg"],
+    images: [house29, house30, house31, house32],
+    floors: [floor11, floor12],
     id: 31,
   },
   {
@@ -515,15 +410,8 @@ const data = [
     area: "6.12",
     available: "true",
     price: "2 099 999",
-    images: [
-      "../images/house7/house1.jpg",
-      "../images/house7/house2.jpg",
-      "../images/house7/house3.jpg",
-      "../images/house7/house4.jpg",
-      "../images/house7/house5.jpg",
-      "../images/house7/house6.jpg",
-    ],
-    floors: ["../images/house7/first.jpg", "../images/house7/second.jpg"],
+    images: [house33, house34, house35, house36, house37, house38],
+    floors: [floor13, floor14],
     id: 32,
   },
   {
@@ -532,14 +420,8 @@ const data = [
     area: "6.45",
     available: "true",
     price: "2 000 000",
-    images: [
-      "../images/house8/house1.jpg",
-      "../images/house8/house2.jpg",
-      "../images/house8/house3.jpg",
-      "../images/house8/house4.jpg",
-      "../images/house8/house5.jpg",
-    ],
-    floors: ["../images/house8/first.jpg", "../images/house8/second.jpg"],
+    images: [house39, house40, house41, house42, house43],
+    floors: [floor15, floor16],
     id: 33,
   },
   {
@@ -548,15 +430,8 @@ const data = [
     area: "8.99",
     available: "true",
     price: "2 677 000",
-    images: [
-      "../images/house9/house1.jpg",
-      "../images/house9/house2.jpg",
-      "../images/house9/house3.jpg",
-      "../images/house9/house4.jpg",
-      "../images/house9/house5.jpg",
-      "../images/house9/house6.jpg",
-    ],
-    floors: ["../images/house9/first.jpg", "../images/house9/second.jpg"],
+    images: [house44, house45, house46, house47, house48, house49],
+    floors: [floor17, floor18],
     id: 34,
   },
   {
@@ -565,15 +440,8 @@ const data = [
     area: "7.45",
     available: "none",
     price: "2 900 000",
-    images: [
-      "../images/house10/house1.jpg",
-      "../images/house10/house2.jpg",
-      "../images/house10/house3.jpg",
-      "../images/house10/house4.jpg",
-      "../images/house10/house5.jpg",
-      "../images/house10/house6.jpg",
-    ],
-    floors: ["../images/house10/first.jpg", "../images/house10/second.jpg"],
+    images: [house50, house51, house52, house53, house54, house55],
+    floors: [floor19, floor20],
     id: 35,
   },
 ];
